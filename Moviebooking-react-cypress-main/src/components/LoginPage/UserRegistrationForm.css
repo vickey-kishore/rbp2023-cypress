@@ -1,0 +1,98 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://www.cepro.com/wp-content/uploads/2019/07/909651452872913-1200x650.jpg");
+  background-size: cover;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+}
+
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  
+}
+
+.login-form label {
+  font-weight: bold;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.user-registration-form {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://th.bing.com/th/id/R.4d3bbf6a6903e74e3de5f11dcc641792?rik=zHppvqHcyy%2fVzw&riu=http%3a%2f%2fwww.monacoav.com%2fwp-content%2fuploads%2f2016%2f05%2fdolby-atmos-more-like-this.jpg&ehk=eGh9Ny9dV0OzVA5IucO60gbtX0m1YCRm1POgMHH1Psw%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .resetPassword-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://th.bing.com/th/id/R.4d3bbf6a6903e74e3de5f11dcc641792?rik=zHppvqHcyy%2fVzw&riu=http%3a%2f%2fwww.monacoav.com%2fwp-content%2fuploads%2f2016%2f05%2fdolby-atmos-more-like-this.jpg&ehk=eGh9Ny9dV0OzVA5IucO60gbtX0m1YCRm1POgMHH1Psw%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .welcome-message{
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: 65px;
+  }
